@@ -1,0 +1,11 @@
+int/signed int = %d %o %x %i
+unsigned int = %u
+short signed int = %h
+long int = %ld
+unsigned short int = %hu
+unsigned long int = %lu 
+signed char = %c 
+unsigned char = %c
+float = %f
+double = %LF
+long double = %LF
