@@ -18,5 +18,7 @@ if(c<='z')
 printf("%c",c-32);
 }
 }
+else
+printf("invalid operation");
 return 0;
 }
