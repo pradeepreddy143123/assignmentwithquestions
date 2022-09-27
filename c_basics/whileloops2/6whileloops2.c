@@ -11,12 +11,9 @@ scanf("%d",&a);
 if(a>0)
 {
 sum+=a;
-count++;
 }
-else
-break;
 i++;
 }
-printf("sum of positive numbers %d=%d\n",count,sum);
+printf("sum of positive numbers=%d\n",sum);
 return 0;
 }
