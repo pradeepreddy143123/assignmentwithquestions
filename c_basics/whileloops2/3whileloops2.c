@@ -10,6 +10,6 @@ int main()
 		sum=sum+a;
 		i++;
 	}
-	printf("\b=%d\n",sum);
+	printf("%d\n",sum);
 	return 0;
 }
