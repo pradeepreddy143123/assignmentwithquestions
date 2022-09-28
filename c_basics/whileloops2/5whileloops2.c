@@ -11,13 +11,10 @@ scanf("%d",&a);
 if(a>0)
 {
 sum+=a;
-count++;
 }
-else
-break;
 i++;
 }
-avg=sum/count;
-printf("sum of positive numbers %d=%d\n avg of %d\n",count,sum,avg);
+avg=sum/n;
+printf("sum of positive numbers %d=%d\n avg is %d\n",n,sum,avg);
 return 0;
 }
