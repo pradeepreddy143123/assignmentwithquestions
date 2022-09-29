@@ -1,12 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int i,n;
-scanf("%d",&n);
-for(i=n;i>=0;i--)
+int rev,rem,a;
+printf("enter a number");
+scanf("%d",&a);
+for(rev=0;a!=0;a=a/10)
 {
-printf("%d",i);
-printf("\n");
+rem =a%10;
+rev=(rev*10)+rem;
 }
+printf("%d",rev);
 return 0;
 }
