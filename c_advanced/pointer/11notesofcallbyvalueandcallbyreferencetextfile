@@ -1,0 +1,10 @@
+call by value :
+in this parameter passing method value of actual parameters are copied to functions formal parameters and the two types of parameters are stored in different memory locations.so any changes are not reflected in actual parameters of the caller
+
+
+
+
+
+
+call by reference :
+both the actual and formal parameters are refer to the same locations so any changes made inside the function are actually reflected in actual parameters of the caller.
