@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <fcntl.h>
+#include <linux/fb.h>
+#include <sys/mman.h>
+#include <stdlib.h>
+#include <sys/ioctl.h>
+#include <unistd.h>
+#include <stdio.h>
+int main(int argc,char *argv[])
+{
+int fbFD, bmpFD;
+struct fb_fix_screeninfo fix_info; //fixed screen information 
+struct fb_var_screeninfo var_info; //configurable screen info
+struct stat finfo;
+unsigned int *fb_ptr,temp;
+char buff
+
